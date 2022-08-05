@@ -138,8 +138,8 @@ const Gallery = [
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative lg:-mt-72 xl:-mt-60 z-40">
-    <div class="pt-32 sm:pt-14 overflow-y">
+  <footer class="relative lg:-mt-96 xl:-mt-72 2xl:-mt-96 z-40">
+    <div class="pt-32 sm:pt-14">
       <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
         
         <div class="max-w-screen-2xl mx-auto pr-4 sm:pr-6 lg:pr-8 xl:pl-10">
@@ -188,8 +188,8 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden md:flex absolute -top-32 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:translate-x-6 lg:-translate-x-12 2xl:-translate-x-24">
-              <div class="ml-24 flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
+            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-28 2xl:-top-24 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:-transform-x-6 md:translate-x-6 lg:-transform-x-2 lg:-translate-x-12 2xl:-transform-x-52 2xl:-translate-x-52">
+              <div class=" flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
                     <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
@@ -212,7 +212,7 @@ const Gallery = [
                       src="/img/16_living_1536_1152.webp" alt="" />
                   </div>
                 </div>
-                <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
+                <div class="hidden 2xl:flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
                     <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
                       src="/img/03_front_1536_1152.webp" alt="" />
