@@ -36,7 +36,7 @@ const Gallery = [
     <Menu />
   </div>
   <section
-    class="relative inline-flex lg:flex flex-col bg-amber-50 max-w-screen-2xl mx-auto justify-end overflow-hidden z-30 lg:-mb-36 xl:-mb-44">
+    class="relative inline-flex lg:flex flex-col bg-amber-50 max-w-screen-2xl mx-auto justify-end overflow-hidden z-30">
     <img
       class="relative top-10 lg:absolute lg:top-8 lg:inset-0 sm:object-[75%] md:object-[25%] lg:object-[95%] object-cover w-full h-auto opacity-95 sm:opacity-75 lg:opacity-50 md:opacity-100"
       src="/img/02_front_1536_1152.webp" alt="" />
@@ -45,7 +45,7 @@ const Gallery = [
     </div>
 
     <div
-      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-16 xl:-mb-6">
+      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-26 xl:-mb-6">
       <div class="inline-block text-center sm:text-left xl:pl-4">
         <h1 class="flex flex-col">
           <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-4xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
@@ -71,10 +71,10 @@ const Gallery = [
           </a>
         </div>
       </div>
-      <hr class="border-rose-200 mt-14  border-b-2 border-t-4 mx-32" />
+      <hr class="border-rose-200 mt-14 border-b-2 border-t-4 mx-32" />
     </div>
   </section>
-  <section class="relative z-40 w-full -mt-40 lg:-mt-20">
+  <section class="relative z-40 w-full -mt-40 lg:-mt-25 -mb-5 lg:-mb-32 2xl:-mb-60">
     <div class="px-4 py-16 mx-auto max-w-[1800px] sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
         <div class="relative z-10 lg:py-16">
@@ -86,7 +86,7 @@ const Gallery = [
           </div>
         </div>
 
-        <div class="relative flex items-center max-h-[980px] bg-rose-50 -mb-24 lg:mb-0">
+        <div class="relative flex items-center max-h-[980px] bg-rose-50">
           <span class="hidden xl:inset-y-0 xl:absolute xl:w-16 xl:bg-rose-50 xl:block xl:-left-16"></span>
 
           <div class="p-8 sm:p-16 md:p-4 xl:p-24 2xl:p-8 md:pb-10">
@@ -138,15 +138,15 @@ const Gallery = [
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative lg:-mt-96 xl:-mt-72 2xl:-mt-96 z-40">
-    <div class="pt-32 sm:pt-14">
-      <div class="bg-rose-900 relative overflow-hidden xl:overflow-visible px-10 2xl:px-0 2xl:-mb-16">
+  <footer class="relative z-40">
+    <div class="pt-32 sm:pt-0">
+      <div class="bg-rose-900 relative px-10 2xl:px-0 2xl:-mb-16">
         
         <div class="max-w-screen-2xl mx-auto pr-4 sm:pr-6 lg:pr-8 xl:pl-10">
           
-          <div class="relative pt-12 pb-28 xl:ml-5 2xl:ml-10">
+          <div class="relative pt-5 pb-28 xl:ml-5 2xl:ml-10">
             <div class="text-rose-50 text-left max-w-sm">
-              <h3 class="text-3xl font-bold tracking-wide uppercase text-rose-300 pb-1">Open Houses:</h3>
+              <h3 class="text-3xl font-bold tracking-wide uppercase text-rose-300 pb-1 pt-10">Open Houses:</h3>
               <ul class="text-2xl mb-4">
                 <li class="flex flex-col mb-2">
                   <span class="font-semibold">Saturday, Aug 6<sup>th</sup></span>
@@ -188,7 +188,7 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-28 2xl:-top-24 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:-transform-x-6 md:translate-x-6 lg:-transform-x-24 lg:-translate-x-24 2xl:-transform-x-52 2xl:-translate-x-52 translate-y-20">
+            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 left-1/2 transform -translate-x-1/2 sm:translate-x-0 md:-transform-x-6 md:translate-x-6 lg:-transform-x-24 lg:-translate-x-24 2xl:-transform-x-52 2xl:-translate-x-52 translate-y-20">
               <div class=" flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
