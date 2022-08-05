@@ -45,7 +45,7 @@ const Gallery = [
     </div>
 
     <div
-      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-14 2xl:mt-16">
+      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-16 xl:-mb-6">
       <div class="inline-block text-center sm:text-left xl:pl-4">
         <h1 class="flex flex-col -ml-2 md:ml-0">
           <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
@@ -138,8 +138,8 @@ const Gallery = [
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative overflow-hidden md:overflow-visible lg:-mt-72 xl:-mt-60 z-40">
-    <div class="pt-32 sm:pt-14">
+  <footer class="relative lg:-mt-72 xl:-mt-60 z-40">
+    <div class="pt-32 sm:pt-14 overflow-y">
       <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
         
         <div class="max-w-screen-2xl mx-auto pr-4 sm:pr-6 lg:pr-8 xl:pl-10">
