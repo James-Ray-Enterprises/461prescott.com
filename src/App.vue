@@ -140,7 +140,7 @@ const Gallery = [
   <!-- Footer section -->
   <footer class="relative lg:-mt-96 xl:-mt-72 2xl:-mt-96 z-40">
     <div class="pt-32 sm:pt-14">
-      <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
+      <div class="bg-rose-900 relative overflow-hidden xl:overflow-visible px-10 2xl:px-0 2xl:-mb-16">
         
         <div class="max-w-screen-2xl mx-auto pr-4 sm:pr-6 lg:pr-8 xl:pl-10">
           
@@ -178,7 +178,7 @@ const Gallery = [
                 <li>
                   MLS#: <span class="font-bold">P1-10753</span>
                 </li>
-                <li>
+                <li class="pr-4 xl:pr-9">
                   Originating MLS: <span class="font-bold">California Regional MLS (Ventura & Pasadena-Foothills AORs)</span>
                 </li>
               </ul>
@@ -188,7 +188,7 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-28 2xl:-top-24 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:-transform-x-6 md:translate-x-6 lg:-transform-x-12 lg:-translate-x-12 2xl:-transform-x-52 2xl:-translate-x-52">
+            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-28 2xl:-top-24 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:-transform-x-6 md:translate-x-6 lg:-transform-x-24 lg:-translate-x-24 2xl:-transform-x-52 2xl:-translate-x-52 translate-y-20">
               <div class=" flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
