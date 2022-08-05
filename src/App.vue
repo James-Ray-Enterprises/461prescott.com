@@ -80,7 +80,7 @@ const Gallery = [
         <div class="relative z-10 lg:py-16">
           <div class="relative h-64 sm:h-80 lg:h-full">
             <a href="#imageGallery" data-fancybox>
-              <img class="absolute inset-0 object-cover w-full h-full max-h-[800px]" src="/img/01_front_1344_1008.webp"
+              <img class="absolute inset-0 object-cover w-full h-full max-h-[800px] rounded-md" src="/img/01_front_1344_1008.webp"
                 alt="">
             </a>
           </div>
