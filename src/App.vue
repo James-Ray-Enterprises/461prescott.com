@@ -45,7 +45,7 @@ const Gallery = [
     </div>
 
     <div
-      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl h-full bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-screen max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:-mt-28 md:pt-7 lg:-mt-26 lg:items-center lg:flex xl:mt-14 2xl:mt-16">
+      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl h-full bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-screen max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-28 md:pt-7 lg:-mt-26 lg:items-center lg:flex xl:mt-14 2xl:mt-16">
       <div class="inline-block text-center sm:text-left xl:pl-4">
         <h1
           class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl">
@@ -139,7 +139,7 @@ const Gallery = [
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative lg:overflow-hidden lg:-mt-80 z-50">
+  <footer class="relative lg:overflow-hidden xl:-mt-80 z-40">
     <div class="pt-32 sm:pt-14">
       <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
         
@@ -189,7 +189,7 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-12 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 2xl:-translate-x-24">
+            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 lg:-translate-x-12 2xl:-translate-x-24">
               <div class="ml-24 flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
@@ -232,7 +232,7 @@ const Gallery = [
     </div>
   </footer>
   <div class="hidden " id="imageGallery">
-    <ul v-if="Gallery" class="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
+    <ul v-if="Gallery" class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-4">
       <li v-for="(item, index) in Gallery" :key="index">
         <a data-fancybox="image-gallery" :href="'/img/' + item">
           <img class="w-auto h-full max-w-full max-h-[800px]" :src="'/img/' + item"
