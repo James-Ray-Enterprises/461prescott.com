@@ -47,10 +47,10 @@ const Gallery = [
     <div
       class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-16 xl:-mb-6">
       <div class="inline-block text-center sm:text-left xl:pl-4">
-        <h1 class="flex flex-col items-center">
-          <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-3xl font-extrabold sm:text-4xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
+        <h1 class="flex flex-col">
+          <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-4xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
           <strong
-            class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-700 font-extrabold lg:block sm:block text-4xl sm:text-5xl lg:text-5xl xl:text-6xl w-full">
+            class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-700 font-extrabold lg:block sm:block text-5xl sm:text-5xl lg:text-5xl xl:text-6xl w-full">
             Perfect Bungalow.
           </strong>
         </h1>
