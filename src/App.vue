@@ -232,10 +232,10 @@ const Gallery = [
     </div>
   </footer>
   <div class="hidden " id="imageGallery">
-    <ul v-if="Gallery" class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
+    <ul v-if="Gallery" class="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
       <li v-for="(item, index) in Gallery" :key="index">
         <a data-fancybox="image-gallery" :href="'/img/' + item">
-          <img class="w-auto h-full max-h-[800px]" :src="'/img/' + item"
+          <img class="w-auto h-full max-w-full max-h-[800px]" :src="'/img/' + item"
             alt="">
         </a>
       </li>
