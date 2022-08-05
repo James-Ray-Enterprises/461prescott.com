@@ -139,7 +139,7 @@ const Gallery = [
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative md:overflow-hidden xl:-mt-80 z-40">
+  <footer class="relative overflow-hidden md:overflow-visible xl:-mt-60 z-40">
     <div class="pt-32 sm:pt-14">
       <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
         
