@@ -45,7 +45,7 @@ const Gallery = [
     </div>
 
     <div
-      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl h-full bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-screen max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-8 md:pt-7 lg:-mt-26 lg:items-center lg:flex xl:mt-14 2xl:mt-16">
+      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl h-full bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-screen max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-14 2xl:mt-16">
       <div class="inline-block text-center sm:text-left xl:pl-4">
         <h1
           class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl">
