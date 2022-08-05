@@ -189,7 +189,7 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 2xl:-translate-x-24">
+            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-12 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 2xl:-translate-x-24">
               <div class="ml-24 flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
