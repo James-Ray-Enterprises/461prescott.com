@@ -92,7 +92,7 @@ const Gallery = [
 
           <div class="p-8 sm:p-16 md:p-4 xl:p-24 2xl:p-8 md:pb-10">
             <span class="text-8xl hidden lg:inline-flex">🏡 </span>
-            <div class="inline-flex flex-wrap-reverse space-x-2 xl:space-x-3 items-center justify-center mb-3 space-y-3">
+            <div class="inline-flex flex-wrap xl:flex-wrap-reverse space-x-2 xl:space-x-3 items-center justify-center mb-3 space-y-3">
               <span class="sr-only">
                 <!-- dummy item -->
               </span>
@@ -125,21 +125,21 @@ const Gallery = [
                 Hardwood Floors
               </span>
             </div>
-            <h2 class="mt-1 text-lg px-5 font-bold sm:text-xl md:text-3xl md:px-4 lg:px-0 lg:text-xl xl:text-2xl xl:px-6 2xl:px-4 text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-500 to-rose-900">
+            <h2 class="mt-1 text-lg px-5 font-bold sm:text-xl md:text-3xl md:px-4 lg:px-0 lg:text-2xl xl:text-2xl xl:px-6 2xl:px-4 text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-500 to-rose-900">
               Experience a perfect 1-bedroom bungalow with fantastic, original casement windows, a decorative fireplace
               and hardwood floors!
             </h2>
-            <p class="mt-2 mb-5 text-base md:text-xl lg:text-lg font-semibold 2xl:text-xl px-0 lg:px-2 2xl:px-14 text-gray-600">
+            <p class="mt-2 mb-5 text-base md:text-xl lg:text-xl font-semibold 2xl:text-xl px-0 lg:px-2 2xl:px-14 text-gray-600">
               The private carport area is currently used as a perfect covered patio. This sweet home also has a finished attic, offering storage options. Loaded with architectural integrity, it has a newer roof & new gutters. It's waiting for a new owner to love it as much as the current owner did. ❤️
             </p>
-            <zillow-link class="lg:hidden xl:inline-block" />
+            <zillow-link />
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Footer section -->
-  <footer class="relative lg:overflow-hidden xl:-mt-80 z-40">
+  <footer class="relative md:overflow-hidden xl:-mt-80 z-40">
     <div class="pt-32 sm:pt-14">
       <div class="bg-rose-900 px-10 2xl:px-0 2xl:-mb-16">
         
@@ -189,7 +189,7 @@ const Gallery = [
                 Website &copy; 2022 &nbsp;|&nbsp; <a href="https://james.engineer" target="_blank">James A. Ray</a>
               </li>
             </ul>
-            <a href="#imageGallery" data-fancybox class="hidden lg:flex absolute -top-32 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 lg:-translate-x-12 2xl:-translate-x-24">
+            <a href="#imageGallery" data-fancybox class="hidden md:flex absolute -top-32 xl:-top-32 left-1/2 transform -translate-x-1/2 sm:top-6 sm:translate-x-0 md:translate-x-6 lg:-translate-x-12 2xl:-translate-x-24">
               <div class="ml-24 flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
@@ -231,11 +231,11 @@ const Gallery = [
       </div>
     </div>
   </footer>
-  <div class="hidden " id="imageGallery">
+  <div class="hidden" id="imageGallery">
     <ul v-if="Gallery" class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-4">
       <li v-for="(item, index) in Gallery" :key="index">
-        <a data-fancybox="image-gallery" :href="'/img/' + item">
-          <img class="w-auto h-full max-w-full max-h-[800px]" :src="'/img/' + item"
+        <a class="px-0 overflow-clip" data-fancybox="image-gallery" :href="'/img/' + item">
+          <img class="h-auto w-full rounded-lg object-cover max-h-[800px]" :src="'/img/' + item"
             alt="">
         </a>
       </li>
