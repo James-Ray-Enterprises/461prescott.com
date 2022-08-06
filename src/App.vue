@@ -257,7 +257,7 @@ const Gallery = [
   <div class="hidden" id="imageGallery">
     <ul v-if="Gallery" class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-4">
       <li v-for="(item, index) in Gallery" :key="index">
-        <a class="px-0 overflow-clip" data-fancybox="image-gallery" :href="'/img/' + item">
+        <a class="px-0 overflow-clip" data-fancybox="image-gallery" :href="'/img/' + item + '.jpg'">
           <picture>
             <source :srcset="'/img/' + item + '.webp'" type="image/webp">
             <source :srcset="'/img/' + item + '.jpg'" type="image/jpeg">
