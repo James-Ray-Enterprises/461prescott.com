@@ -8,7 +8,7 @@ import ZillowLink from '../components/ZillowLink.vue'
       <div class="flex justify-between h-auto pt-2 pb-4">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center mt-1 2xl:ml-10 sm:ml-1 lg:mt-4">
-            <a href="/" class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
+            <a href="/" class="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-extrabold">
               461 Prescott St
             </a>
           </div>
