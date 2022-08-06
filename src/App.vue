@@ -45,17 +45,17 @@ const Gallery = [
     </div>
 
     <div
-      class="z-40 inline-flex -ml-0 pl-8 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-26 xl:-mb-6">
+      class="z-40 inline-flex -ml-0 lg:pl-2 flex-col justify-end pb-40 max-w-screen-2xl bg-amber-50 sm:bg-transparent sm:bg-gradient-to-r sm:from-amber-50 sm:via-amber-50 sm:to-transparent lg:from-transparent px-2 -mt-10 pt-5 sm:-mt-20 lg:h-full lg:min-h-[800px] max-h-[1024px] mx-auto sm:pt-3 lg:ml-12 md:mt-12 md:pt-7 lg:mt-28 lg:items-center lg:flex xl:mt-60 2xl:mt-26 xl:-mb-6">
       <div class="inline-block text-center sm:text-left xl:pl-4">
         <h1 class="flex flex-col">
-          <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-5xl font-extrabold sm:text-4xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
+          <span class="text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-rose-300 to-rose-900 text-3xl font-extrabold sm:text-4xl md:text-6xl lg:text-4xl xl:text-5xl">You've just found the</span>
           <strong
-            class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-700 font-extrabold lg:block sm:block text-5xl sm:text-5xl lg:text-5xl xl:text-6xl w-full">
+            class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-700 font-extrabold lg:block sm:block text-4xl sm:text-5xl lg:text-5xl xl:text-6xl w-full">
             Perfect Bungalow.
           </strong>
         </h1>
 
-        <p class="max-w-2xl mt-2 text-base sm:leading-normal sm:text-2xl lg:text-xl lg:max-w-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-700 to-rose-900 mb-8">Located in wonderful, historic Garfield Heights, this sweet jewel box is a perfect starter home with just the right size lot, fully enclosed with a sprinkler system and lush landscaping 🌴
+        <p class="max-w-2xl mt-2 text-base sm:leading-normal sm:text-2xl lg:text-xl lg:max-w-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-700 to-rose-900 mb-4">Located in wonderful, historic Garfield Heights, this sweet jewel box is a perfect starter home with just the right size lot, fully enclosed with a sprinkler system and lush landscaping 🌴
         </p>
 
         <div class="flex flex-wrap gap-4 mt-4 text-center">
@@ -64,7 +64,7 @@ const Gallery = [
             <home-icon class="h-6 w-auto inline-flex pr-1 relative -mt-1.5" />
             Request a Tour 
           </a>
-          <a class="block w-full px-12 py-3 text-xl lg:text-2xl font-semibold bg-rose-50 rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring"
+          <a class="block w-full px-8 py-3 text-xl lg:text-2xl font-semibold bg-rose-50 rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring"
             href="#imageGallery" data-fancybox>
             <photograph-icon class="h-6 w-auto inline-flex pr-1 relative -mt-1.5" />
             View the Photo Gallery
@@ -89,42 +89,42 @@ const Gallery = [
         <div class="relative flex items-center max-h-[980px] bg-rose-50">
           <span class="hidden xl:inset-y-0 xl:absolute xl:w-16 xl:bg-rose-50 xl:block xl:-left-16"></span>
 
-          <div class="p-8 sm:p-16 md:p-4 xl:p-24 2xl:p-8 md:pb-10">
+          <div class="p-8 pb-10 sm:p-16 md:p-4 xl:p-24 2xl:p-8 md:pb-10">
             <span class="text-8xl hidden lg:inline-flex">🏡 </span>
             <div class="inline-flex flex-wrap xl:flex-wrap-reverse space-x-2 xl:space-x-3 items-center justify-center mb-3 space-y-3">
               <span class="sr-only">
                 <!-- dummy item -->
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Historic Garfield Heights
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Rear Sprinklers
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Private Carport Area
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Decorative Fireplace
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Sweet Jewel Box
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Fully Enclosed
               </span>
               <span
-                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-rose-100 text-rose-800 uppercase">
+                class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs md:text-sm font-medium bg-rose-100 text-rose-800 uppercase">
                 Hardwood Floors
               </span>
             </div>
-            <h2 class="mt-1 text-lg px-5 font-bold sm:text-xl md:text-3xl md:px-4 lg:px-0 lg:text-2xl xl:text-2xl xl:px-6 2xl:px-4 text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-500 to-rose-900">
+            <h2 class="mt-1 text-base px-2 font-bold sm:text-xl md:text-3xl md:px-4 lg:px-0 lg:text-2xl xl:text-2xl xl:px-6 2xl:px-4 text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-500 to-rose-900">
               Experience a perfect 1-bedroom bungalow with fantastic, original casement windows, a decorative fireplace
               and hardwood floors!
             </h2>
@@ -139,7 +139,7 @@ const Gallery = [
   </section>
   <!-- Footer section -->
   <footer class="relative z-40">
-    <div class="pt-32 sm:pt-0">
+    <div class="pt-22 sm:pt-0">
       <div class="bg-rose-900 relative px-10 2xl:px-0 2xl:-mb-16">
         
         <div class="max-w-screen-2xl mx-auto pr-4 sm:pr-6 lg:pr-8 xl:pl-10">
