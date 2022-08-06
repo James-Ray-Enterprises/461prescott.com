@@ -218,7 +218,7 @@ const Gallery = [
                     <picture>
                       <source srcset="/img/21_bedroom_1536_1152.webp" type="image/webp">
                       <source srcset="/img/21_bedroom_1536_1152.jpg" type="image/jpeg">
-                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/21_bedroom_1536_1152.jpg'" alt="">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/21_bedroom_1536_1152.jpg" alt="">
                     </picture>
                   </div>
 
