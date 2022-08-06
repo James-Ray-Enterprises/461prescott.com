@@ -4,30 +4,30 @@ import ZillowLink from './components/ZillowLink.vue'
 import { HomeIcon, PhotographIcon } from '@heroicons/vue/outline'
 
 const Gallery = [
-  "01_front_1344_1008.webp",
-  "02_front_1536_1152.webp",
-  "03_front_1536_1152.webp",
-  "16_living_1536_1152.webp",
-  "09_living_1536_1152.webp",
-  "22_living_1536_1152.webp",
-  "24_living_1536_1152.webp",
-  "19_living_1536_1152.webp",
-  "23_bedroom_1536_1152.webp",
-  "21_bedroom_1536_1152.webp",
-  "18_bedroom_1536_1152.webp",
-  "11_bathroom_1536_1152.webp",
-  "17_kitchen_1536_1152.webp",
-  "15_kitchen_1536_1152.webp",
-  "14_kitchen_1536_1152.webp",
-  "13_kitchen_1536_1152.webp",
-  "12_kitchen_1536_1152.webp",
-  "20_dining_1536_1152.webp",
-  "07_carport_1536_1152.webp",
-  "08_carport_1536_1152.webp",
-  "05_backyard_1536_1152.webp",
-  "04_backyard_1536_1152.webp",
-  "10_attic_1536_1152.webp",
-  "06_attic_1536_1152.webp",
+  "01_front_1344_1008",
+  "02_front_1536_1152",
+  "03_front_1536_1152",
+  "16_living_1536_1152",
+  "09_living_1536_1152",
+  "22_living_1536_1152",
+  "24_living_1536_1152",
+  "19_living_1536_1152",
+  "23_bedroom_1536_1152",
+  "21_bedroom_1536_1152",
+  "18_bedroom_1536_1152",
+  "11_bathroom_1536_1152",
+  "17_kitchen_1536_1152",
+  "15_kitchen_1536_1152",
+  "14_kitchen_1536_1152",
+  "13_kitchen_1536_1152",
+  "12_kitchen_1536_1152",
+  "20_dining_1536_1152",
+  "07_carport_1536_1152",
+  "08_carport_1536_1152",
+  "05_backyard_1536_1152",
+  "04_backyard_1536_1152",
+  "10_attic_1536_1152",
+  "06_attic_1536_1152",
 ]
 </script>
 
@@ -37,9 +37,12 @@ const Gallery = [
   </div>
   <section
     class="relative inline-flex lg:flex flex-col bg-amber-50 max-w-screen-2xl mx-auto justify-end overflow-hidden z-30">
-    <img
-      class="relative top-10 lg:absolute lg:top-8 lg:inset-0 sm:object-[75%] md:object-[25%] lg:object-[95%] object-cover w-full h-auto opacity-95 sm:opacity-75 lg:opacity-50 md:opacity-100"
-      src="/img/02_front_1536_1152.webp" alt="" />
+
+    <picture>
+      <source srcset="/img/02_front_1536_1152.webp" type="image/webp">
+      <source srcset="/img/02_front_1536_1152.jpg" type="image/jpeg">
+      <img class="relative top-10 lg:absolute lg:top-8 lg:inset-0 sm:object-[75%] md:object-[25%] lg:object-[95%] object-cover w-full h-auto opacity-95 sm:opacity-75 lg:opacity-50 md:opacity-100" src="/img/02_front_1536_1152.jpg" alt="">
+    </picture>
 
     <div class="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-amber-50 sm:via-transparent sm:to-transparent pb-20">
     </div>
@@ -80,8 +83,11 @@ const Gallery = [
         <div class="relative z-10 lg:py-16">
           <div class="relative h-64 sm:h-80 lg:h-full">
             <a href="#imageGallery" data-fancybox>
-              <img class="absolute inset-0 object-cover w-full h-full max-h-[800px] rounded-md" src="/img/01_front_1344_1008.webp"
-                alt="">
+              <picture>
+                <source srcset="/img/01_front_1344_1008.webp" type="image/webp">
+                <source srcset="/img/01_front_1344_1008.jpg" type="image/jpeg">
+                <img class="absolute inset-0 object-cover w-full h-full max-h-[800px] rounded-md" src="/img/01_front_1344_1008.jpg" alt="">
+              </picture>
             </a>
           </div>
         </div>
@@ -192,35 +198,53 @@ const Gallery = [
               <div class=" flex space-x-6 min-w-max sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/14_kitchen_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/14_kitchen_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/14_kitchen_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/14_kitchen_1536_1152.jpg" alt="">
+                    </picture>
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/19_living_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/19_living_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/19_living_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/19_living_1536_1152.jpg" alt="">
+                    </picture>
                   </div>
                 </div>
                 <div class="flex space-x-6 sm:-mt-20 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/21_bedroom_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/21_bedroom_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/21_bedroom_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/21_bedroom_1536_1152.jpg'" alt="">
+                    </picture>
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/16_living_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/16_living_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/16_living_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/16_living_1536_1152.jpg" alt="">
+                    </picture>
                   </div>
                 </div>
                 <div class="hidden 2xl:flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/03_front_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/03_front_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/03_front_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/03_front_1536_1152.jpg" alt="">
+                    </picture>
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                      src="/img/17_kitchen_1536_1152.webp" alt="" />
+                    <picture>
+                      <source srcset="/img/17_kitchen_1536_1152.webp" type="image/webp">
+                      <source srcset="/img/17_kitchen_1536_1152.jpg" type="image/jpeg">
+                      <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72" src="/img/17_kitchen_1536_1152.jpg" alt="">
+                    </picture>
                   </div>
                 </div>
               </div>
@@ -234,8 +258,11 @@ const Gallery = [
     <ul v-if="Gallery" class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-4">
       <li v-for="(item, index) in Gallery" :key="index">
         <a class="px-0 overflow-clip" data-fancybox="image-gallery" :href="'/img/' + item">
-          <img class="h-auto w-full rounded-lg object-cover max-h-[800px]" :src="'/img/' + item"
-            alt="">
+          <picture>
+            <source :srcset="'/img/' + item + '.webp'" type="image/webp">
+            <source :srcset="'/img/' + item + '.jpg'" type="image/jpeg">
+            <img class="h-auto w-full rounded-lg object-cover max-h-[800px]" :src="'/img/' + item + '.jpg'" alt="">
+          </picture>
         </a>
       </li>
     </ul>
