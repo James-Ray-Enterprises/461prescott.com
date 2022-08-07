@@ -58,7 +58,7 @@ const Gallery = [
           </strong>
         </h1>
 
-        <p class="max-w-2xl mt-2 text-base sm:leading-normal sm:text-2xl lg:text-xl lg:max-w-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-700 to-rose-900 mb-4">Located in wonderful, historic Garfield Heights, this sweet jewel box is a perfect starter home with just the right size lot, fully enclosed with a sprinkler system and lush landscaping 🌴
+        <p class="max-w-2xl mt-2 text-base sm:leading-normal sm:text-2xl lg:text-xl lg:max-w-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-rose-300 via-rose-700 to-rose-900 mb-4">Located in wonderful, historic Garfield Heights, this sweet jewel box is a perfect starter home with just the right size lot, fully enclosed with a sprinkler system and lush landscaping&nbsp;🌴
         </p>
 
         <div class="flex flex-wrap gap-4 mt-4 text-center">
@@ -135,7 +135,7 @@ const Gallery = [
               and hardwood floors!
             </h2>
             <p class="mt-2 mb-5 text-base md:text-xl lg:text-xl font-semibold 2xl:text-xl px-0 lg:px-2 2xl:px-14 text-gray-600">
-              The private carport area is currently used as a perfect covered patio. This sweet home also has a finished attic, offering storage options. Loaded with architectural integrity, it has a newer roof & new gutters. It's waiting for a new owner to love it as much as the current owner did. ❤️
+              The private carport area is currently used as a perfect covered patio. This sweet home also has a finished attic, offering storage options. Loaded with architectural integrity, it has a newer roof & new gutters. It's waiting for a new owner to love it as much as the current owner did.&nbsp;❤️
             </p>
             <zillow-link />
           </div>
