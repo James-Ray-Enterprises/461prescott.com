@@ -155,7 +155,7 @@ const Gallery = [
               <h3 class="text-3xl font-bold tracking-wide uppercase text-rose-300 pb-1 pt-10">Open Houses:</h3>
               <ul class="text-2xl mb-4">
                 <li class="flex flex-col mb-2">
-                  <span>Request a tour<br/><span class="font-bold">as early as tomorrow at 9:00 am</span></span>
+                  <a href="https://www.zillow.com/homedetails/461-Prescott-St-Pasadena-CA-91104/20865656_zpid/" target="_blank">Request a tour<br/><span class="font-bold">as early as tomorrow at 9:00 am</span></a>
                 </li>
               </ul>
               <hr class="border-rose-300 border-b-2 border-t-4">
