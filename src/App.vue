@@ -155,12 +155,7 @@ const Gallery = [
               <h3 class="text-3xl font-bold tracking-wide uppercase text-rose-300 pb-1 pt-10">Open Houses:</h3>
               <ul class="text-2xl mb-4">
                 <li class="flex flex-col mb-2">
-                  <span class="font-semibold">Saturday, Aug 6<sup>th</sup></span>
-                  <span>2:00 PM - 4:00 PM</span>
-                </li>
-                <li class="flex flex-col mb-2">
-                  <span class="font-semibold">Sunday, Aug 7<sup>th</sup></span>
-                  <span>2:00 PM - 4:00 PM</span>
+                  <span>Request a tour<span class="font-bold">as early as tomorrow at 9:00 am</span></span>
                 </li>
               </ul>
               <hr class="border-rose-300 border-b-2 border-t-4">
