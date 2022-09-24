@@ -77,7 +77,7 @@ const Gallery = [
       <hr class="border-rose-200 mt-14 border-b-2 border-t-4 mx-32" />
     </div>
   </section>
-  <section class="relative z-40 w-full -mt-40 lg:-mt-25 -mb-5 lg:-mb-12 2xl:-mb-20">
+  <section class="relative z-40 w-full -mt-40 lg:-mt-25 -mb-5 lg:mb-0 2xl:mb-10">
     <div class="px-4 py-16 mx-auto max-w-[1800px] sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
         <div class="relative z-10 lg:py-16">
